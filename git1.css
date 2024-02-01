@@ -1,0 +1,23 @@
+*{
+ margin:0px;padding:0px;box-sizing:border-box;}
+ body{
+ width:100%; background-image:url("background.jpg");background-size:cover;background-repeat:no-repeat;}
+ nav {
+ width:100%;background-color:black;height:75px;padding:0px 120px;line-height:75px;}
+ nav h1{
+ font-size:32px;font-family:san-seriff;text-transform:uppercase;float:left;line-height:75px;background-image: linear-gradient(to right, yellow 0%, #ff00bf 100%);
+color: transparent;-webkit-background-clip: text;}
+ nav ul{float:right;}
+ nav ul li{
+ float:left;list-style:none;position:relative;}
+ nav ul li a{
+ text-decoration:none;font-family:san-seriff;font-size:17px;padding:0px 35px;display:block;color:white;}
+ nav ul li ul{
+ position:absolute;display:none;border-radius:0px 0px 5px 5px;}
+ nav ul li ul li{
+ line-height:1;width:270px;border-radius:1px;padding:6px;background-color:black;}
+ nav ul li ul li a:hover{background-color:purple;}
+ nav ul li a:hover{
+ background-color:purple;}
+ nav ul li:hover ul{
+ display:block;}
