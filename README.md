@@ -1,3 +1,3 @@
 OUTPUT
 
-https://chari2003.github.io/project7/
+https://charitha-R-7.github.io/project7/
